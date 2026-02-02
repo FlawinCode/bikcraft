@@ -138,7 +138,7 @@ body {
 
 .vantagens__item-descricao {
   font-size: 20px;
-  grid-column: 1 / -1;
+  grid-column: 2 / -1;
   line-height: 1.3;
 }
 
