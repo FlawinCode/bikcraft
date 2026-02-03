@@ -47,7 +47,7 @@ body {
   grid-template-columns: repeat(2, 1fr);
   max-width: 1000px;
   margin-inline: auto;
-  position: relative;
+  
 }
 
 .banner__conteudo {
@@ -58,6 +58,7 @@ body {
   align-content: center;
   text-align: right;
   background-color: #fff;
+  position: relative;
 }
 
 .traco {
@@ -66,8 +67,8 @@ body {
   height: 3px;
   background-color: #ee2211;
   position: absolute;
-  top: 40px;
-  right: 470px;
+  top: 30px;
+  right: -30px;
 }
 
 .banner__titulo {
