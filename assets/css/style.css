@@ -62,7 +62,6 @@ body {
 }
 
 .traco {
-  display: inline-block;
   width: 60px;
   height: 3px;
   background-color: #ee2211;
@@ -111,15 +110,15 @@ body {
   font-size: 64px;
   align-self: center;
   text-align: right;
-  grid-column: 1 / -2;
-  padding-right: 20px;
+  grid-column: 1;
+  padding-right: 40px;
   color: #c6c6c6;
   text-transform: uppercase;
 }
 
 .vantagens__conteudo {
   display: grid;
-  gap: 40px;
+  gap: 20px;
   padding: 50px 80px;
   background-color: #fff;
 }
@@ -137,12 +136,12 @@ body {
 
 .vantagens__item-titulo {
   font-size: 18px;
-  grid-column: 2 / -1;
+  grid-column: 2;
 }
 
 .vantagens__item-descricao {
   font-size: 20px;
-  grid-column: 2 / -1;
+  grid-column: 2;
   line-height: 1.3;
 }
 
