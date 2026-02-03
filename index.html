@@ -24,7 +24,7 @@
 
   <main id="conteudo">
     <section class="banner" aria-labelledby="titulo-destaque">
-      <div class="banner__conteudo">
+      <article class="banner__conteudo">
         <span class="traco" aria-hidden="true"></span>
 
         <h2 id="titulo-destaque" class="banner__titulo">Bicicletas Feitas a Mão</h2>
@@ -35,11 +35,9 @@
         </p>
 
         <a href="index.html" class="banner__link" aria-label="Ver mais sobre a bicicleta Nimbus Stark">Ver mais</a>
-      </div>
+      </article>
 
-      <figure class="banner__imagem">
-        <img src="./assets/img/bicicleta.jpg" alt="Bicicleta Nimbus Stark" />
-      </figure>
+      <img class="banner__imagem" src="./assets/img/bicicleta.jpg" alt="Bicicleta Nimbus Stark" />
     </section>
 
     <section class="vantagens" aria-labelledby="vantagens-titulo">
@@ -47,27 +45,27 @@
 
       <ul class="vantagens__conteudo">
         <li class="vantagens__item">
-          <img class="vantagens__item-icone" src="./assets/img/eletrica.svg" alt="" />
+          <img class="vantagens__item-icone" src="./assets/img/eletrica.svg" alt="" aria-hidden="true" />
           <h3 class="vantagens__item-titulo">Motor Elétrico</h3>
           <p class="vantagens__item-descricao">Permite você viajar distâncias inimagináveis com a sua bike.</p>
         </li>
 
         <li class="vantagens__item">
-          <img class="vantagens__item-icone" src="./assets/img/velocidade.svg" alt="" />
+          <img class="vantagens__item-icone" src="./assets/img/velocidade.svg" alt="" aria-hidden="true" />
           <h3 class="vantagens__item-titulo">40 km/h</h3>
           <p class="vantagens__item-descricao">A mais rápida bicicleta elétrica disponível hoje no mercado.</p>
         </li>
 
         <li class="vantagens__item">
-          <img class="vantagens__item-icone" src="./assets/img/rastreador.svg" alt="" />
+          <img class="vantagens__item-icone" src="./assets/img/rastreador.svg" alt="" aria-hidden="true" />
           <h3 class="vantagens__item-titulo">Rastreador</h3>
-          <p class="vantagens__item-descricao">Rastreador e sistema anti-furto para garantir o seu sossego.</p>
+          <p class="vantagens__item-descricao">Sistema anti-furto para garantir o seu sossego.</p>
         </li>
       </ul>
     </section>
   </main>
 
-  <footer class="rodape">
+  <footer aria-label="Informações de Rodapé" class="rodape">
     <p>Bikcraft - Todos os direitos reservados</p>
   </footer>
 </body>

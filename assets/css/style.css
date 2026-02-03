@@ -80,7 +80,7 @@ body {
   font-size: 36px;
 }
 
-.banner__imagem img {
+.banner__imagem {
   grid-column: 2 / -1;
   display: block;
   max-width: 100%;
