@@ -7,7 +7,7 @@
 body {
   background-color: #f7f7f7;
   font-family: Arial, Helvetica, sans-serif;
-  padding-inline: 16px;
+  padding-inline: 1rem;
 }
 
 /* CABEÇALHO */
@@ -16,9 +16,9 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-block: 60px;
-  gap: 60px;
-  max-width: 1000px;
+  margin-block: 3.75rem;
+  gap: 3.75rem;
+  max-width: 62.5rem;
   margin-inline: auto;
 }
 
@@ -32,14 +32,14 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 20px;
+  gap: 1.25rem;
 }
 
 .cabecalho__link {
-  padding: 20px 40px;
+  padding: 1.25rem 2.5rem;
   background-color: #fff;
   text-decoration: none;
-  font-size: 16px;
+  font-size: 1rem;
   text-transform: uppercase;
   color: black;
 }
@@ -51,16 +51,16 @@ body {
 .banner {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  max-width: 1000px;
+  max-width: 62.5rem;
   margin-inline: auto;
   
 }
 
 .banner__conteudo {
   display: grid;
-  gap: 20px;
+  gap: 1.25rem;
   grid-column: 1;
-  padding-inline: 40px;
+  padding-inline: 2.5rem;
   align-content: center;
   text-align: right;
   background-color: #fff;
@@ -68,16 +68,16 @@ body {
 }
 
 .traco {
-  width: 60px;
-  height: 3px;
+  width: 3.75rem;
+  height: 0.1875rem;
   background-color: #ee2211;
   position: absolute;
-  top: 30px;
-  right: -30px;
+  top: 1.875rem;
+  right: -1.875rem;
 }
 
 .banner__titulo {
-  font-size: 36px;
+  font-size: 2.25rem;
 }
 
 .banner__imagem {
@@ -87,18 +87,18 @@ body {
 }
 
 .banner__descricao {
-  font-size: 20px;
+  font-size: 1.25rem;
   line-height: 1.3;
 }
 
 .banner__link {
   background-color: #ee2211;
-  padding: 15px 30px;
+  padding: 0.9375rem 1.875rem;
   text-decoration: none;
   text-transform: uppercase;
-  font-size: 16px;
+  font-size: 1rem;
   color: #fff;
-  border-radius: 4px;
+  border-radius: 0.25rem;
   justify-self: end;
   display: inline-block;
 }
@@ -108,24 +108,24 @@ body {
 .vantagens {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  max-width: 1000px;
+  max-width: 62.5rem;
   margin-inline: auto;
 }
 
 .vantagens__titulo {
-  font-size: 64px;
+  font-size: 4rem;
   align-self: center;
   text-align: right;
   grid-column: 1;
-  padding-right: 40px;
+  padding-right: 2.5rem;
   color: #c6c6c6;
   text-transform: uppercase;
 }
 
 .vantagens__conteudo {
   display: grid;
-  gap: 20px;
-  padding: 50px 80px;
+  gap: 1.25rem;
+  padding: 3.125rem 5rem;
   background-color: #fff;
   list-style: none;
 }
@@ -133,7 +133,7 @@ body {
 .vantagens__item {
   display: grid;
   grid-template-columns: auto 1fr;
-  gap: 10px 20px;
+  gap: 0.625rem 1.25rem;
 }
 
 .vantagens__item-icone {
@@ -142,12 +142,12 @@ body {
 }
 
 .vantagens__item-titulo {
-  font-size: 18px;
+  font-size: 1.125rem;
   grid-column: 2;
 }
 
 .vantagens__item-descricao {
-  font-size: 20px;
+  font-size: 1.25rem;
   grid-column: 2;
   line-height: 1.3;
 }
@@ -156,24 +156,24 @@ body {
 
 .rodape {
   text-align: center;
-  padding: 30px;
+  padding: 1.875rem;
   background-color: #fff;
-  margin-top: 40px;
-  font-size: 18px;
+  margin-top: 2.5rem;
+  font-size: 1.125rem;
 }
 
 /* RESPONSIVO */
 
-@media (max-width: 900px) {
+@media (max-width: 56.25rem) {
   .banner,
   .vantagens {
     grid-template-columns: 1fr;
-    grid-auto-rows: minmax(120px, auto);
+    grid-auto-rows: minmax(7.5rem, auto);
   }
 
   .banner__conteudo {
     text-align: left;
-    padding: 40px 24px;
+    padding: 2.5rem 1.5rem;
   }
 
   .banner__link {
@@ -182,38 +182,38 @@ body {
 
   .traco {
     position: static;
-    margin-bottom: 10px;
+    margin-bottom: 0.625rem;
   }
 
   .vantagens__titulo {
     grid-row: 1;
     text-align: center;
-    font-size: 40px;
+    font-size: 2.5rem;
     padding-right: 0;
   }
 
   .vantagens__conteudo {
     grid-row: 2;
-    padding: 32px 24px;
+    padding: 2rem 1.5rem;
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 37.5rem) {
   .cabecalho {
-    gap: 24px;
-    margin-block: 32px;
+    gap: 1.5rem;
+    margin-block: 2rem;
   }
 
   .cabecalho__link {
-    padding: 14px 20px;
+    padding: 0.875rem 1.25rem;
   }
 
   .banner__titulo {
-    font-size: 28px;
+    font-size: 1.75rem;
   }
 
   .banner__descricao,
   .vantagens__item-descricao {
-    font-size: 16px;
+    font-size: 1rem;
   }
 }
