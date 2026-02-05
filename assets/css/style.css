@@ -162,10 +162,6 @@ body {
   border-left: 3px solid #ee2211;
 }
 
-/* .vantagens__item:nth-child(odd) {
-  background-color: #f7f7f7;
-} */
-
 .vantagens__item-icone {
   grid-column: 1;
   justify-self: start;
