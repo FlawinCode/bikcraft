@@ -23,9 +23,12 @@ body {
   margin-inline: auto;
 }
 
-.cabecalho__titulo a {
+.logo {
   text-decoration: none;
   color: black;
+  font-size: 2.5rem;
+  font-weight: bold;
+  padding: .625rem;
 }
 
 .cabecalho__lista {
@@ -131,9 +134,8 @@ body {
   text-align: right;
   grid-column: 1;
   padding-right: 2.5rem;
-  color: #c6c6c6;
+  color: #767676;
   text-transform: uppercase;
-  background-image: url("../img/");
 }
 
 .vantagens__conteudo {
