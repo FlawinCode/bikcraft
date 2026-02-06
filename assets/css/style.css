@@ -101,10 +101,11 @@ body {
 .banner__descricao {
   font-size: 1.25rem;
   line-height: 1.3;
+  color: #111;
 }
 
 .banner__link {
-  background-color: #ee2211;
+  background-color: #e02211;
   padding: 0.9375rem 1.875rem;
   text-decoration: none;
   text-transform: uppercase;
