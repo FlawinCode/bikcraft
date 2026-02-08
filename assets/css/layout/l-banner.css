@@ -1,0 +1,39 @@
+.l-banner {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  max-width: 62.5rem;
+  margin-inline: auto;
+}
+
+.l-banner__conteudo {
+  display: grid;
+  gap: var(--espaco-24);
+  padding-inline: var(--espaco-40);
+  align-content: center;
+  text-align: right;
+}
+
+.l-banner__imagem {
+  display: inline-block;
+  max-width: 100%;
+}
+
+.l-banner__link {
+  justify-self: end;
+  display: inline-block;
+}
+
+@media (width <= 56.25rem) {
+  .l-banner {
+    grid-template-columns: 1fr;
+  }
+
+  .l-banner__conteudo {
+    text-align: left;
+    padding: var(--espaco-40) var(--espaco-24);
+  }
+
+  .l-banner__link {
+    justify-self: start;
+  }
+}

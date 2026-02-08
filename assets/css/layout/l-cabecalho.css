@@ -1,0 +1,20 @@
+.l-cabecalho {
+  display: flex;
+  flex-direction: column;
+  gap: var(--espaco-40);
+  max-width: 1000px;
+  margin-inline: auto;
+  text-align: center;
+  padding-block: var(--espaco-60) var(--espaco-68);
+}
+
+.l-cabecalho__logo {
+  display: inline-block;
+  padding: var(--espaco-8);
+}
+
+@media (width <= 56.25rem) {
+  .l-cabecalho {
+    gap: var(--espaco-32);
+  }
+}

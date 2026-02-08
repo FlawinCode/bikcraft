@@ -4,27 +4,29 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+    content="Bicicletas elétricas de alta precisão e qualidade, feitas à mão. Conheça a Nimbus Stark e a tecnologia Bikcraft." />
   <title>BikeCraft</title>
   <link rel="stylesheet" href="./assets/css/style.css" />
 </head>
 
 <body>
-  <header class="cabecalho">
-    <a class="logo" href="index.html">bikeCraft</a>
+  <header class="l-cabecalho">
+    <a class="logo l-cabecalho__logo" href="index.html">bikeCraft</a>
 
-    <nav class="cabecalho__navegacao" aria-label="Navegação Principal">
-      <ul class="cabecalho__lista">
-        <li><a href="index.html" class="cabecalho__link">Sobre</a></li>
-        <li><a href="index.html" class="cabecalho__link">Produtos</a></li>
-        <li><a href="index.html" class="cabecalho__link">Lojas</a></li>
-        <li><a href="index.html" class="cabecalho__link">Contatos</a></li>
+    <nav aria-label="Navegação Principal">
+      <ul class="nav-lista l-nav-lista">
+        <li><a href="index.html" class="nav-link l-nav-link">Sobre</a></li>
+        <li><a href="index.html" class="nav-link l-nav-link">Produtos</a></li>
+        <li><a href="index.html" class="nav-link l-nav-link">Lojas</a></li>
+        <li><a href="index.html" class="nav-link l-nav-link">Contatos</a></li>
       </ul>
     </nav>
   </header>
 
-  <main id="conteudo">
-    <article class="banner" aria-labelledby="titulo-destaque">
-      <div class="banner__conteudo">
+  <main id="conteudo" class="l-conteudo">
+    <article class="banner l-banner" aria-labelledby="titulo-destaque">
+      <div class="banner__conteudo l-banner__conteudo">
         <h1 id="titulo-destaque" class="banner__titulo">Bicicletas Feitas a Mão</h1>
 
         <p class="banner__descricao">
@@ -32,38 +34,48 @@
           da marca.
         </p>
 
-        <a href="index.html" class="banner__link" aria-label="Ver mais sobre a bicicleta Nimbus Stark">Ver mais</a>
+        <a href="index.html" class="banner__link l-banner__link"
+          aria-label="Ver mais sobre a bicicleta Nimbus Stark">Ver mais</a>
       </div>
 
-      <img class="banner__imagem" src="./assets/img/bicicleta.jpg" alt="Bicicleta Nimbus Stark" />
+      <img class="banner__imagem l-banner__imagem" src="./assets/img/bicicleta.jpg" alt="Bicicleta Nimbus Stark" />
     </article>
 
-    <article class="vantagens" aria-labelledby="vantagens-titulo">
-      <h2 id="vantagens-titulo" class="vantagens__titulo">Vantagens Bikcraft</h2>
+    <article class="vantagens l-vantagens" aria-labelledby="vantagens-titulo">
+      <h2 id="vantagens-titulo" class="vantagens__titulo l-vantagens__titulo">Vantagens Bikcraft</h2>
 
-      <ul class="vantagens__conteudo">
-        <li class="vantagens__item">
-          <img class="vantagens__item-icone" src="./assets/img/eletrica.svg" alt="" aria-hidden="true" />
+      <ul class="vantagens__conteudo l-vantagens__conteudo">
+        <li class="vantagens__item l-vantagens__item">
+          <img class="vantagens__item-icone l-vantagens__item-icone" src="./assets/img/eletrica.svg" alt=""
+            aria-hidden="true" />
           <h3 class="vantagens__item-titulo">Motor Elétrico</h3>
-          <p class="vantagens__item-descricao">Permite você viajar distâncias inimagináveis com a sua bike.</p>
+          <p class="vantagens__item-descricao l-vantagens__item-descricao">
+            Permite você viajar distâncias inimagináveis com a sua bike.
+          </p>
         </li>
 
-        <li class="vantagens__item">
-          <img class="vantagens__item-icone" src="./assets/img/velocidade.svg" alt="" aria-hidden="true" />
+        <li class="vantagens__item l-vantagens__item">
+          <img class="vantagens__item-icone l-vantagens__item-icone" src="./assets/img/velocidade.svg" alt=""
+            aria-hidden="true" />
           <h3 class="vantagens__item-titulo">40 km/h</h3>
-          <p class="vantagens__item-descricao">A mais rápida bicicleta elétrica disponível hoje no mercado.</p>
+          <p class="vantagens__item-descricao l-vantagens__item-descricao">
+            A mais rápida bicicleta elétrica disponível hoje no mercado.
+          </p>
         </li>
 
-        <li class="vantagens__item">
-          <img class="vantagens__item-icone" src="./assets/img/rastreador.svg" alt="" aria-hidden="true" />
+        <li class="vantagens__item l-vantagens__item">
+          <img class="vantagens__item-icone l-vantagens__item-icone" src="./assets/img/rastreador.svg" alt=""
+            aria-hidden="true" />
           <h3 class="vantagens__item-titulo">Rastreador</h3>
-          <p class="vantagens__item-descricao">Sistema anti-furto para garantir o seu sossego.</p>
+          <p class="vantagens__item-descricao l-vantagens__item-descricao">
+            Sistema anti-furto para garantir o seu sossego.
+          </p>
         </li>
       </ul>
     </article>
   </main>
 
-  <footer aria-label="Informações de Rodapé" class="rodape">
+  <footer aria-label="Informações de Rodapé" class="l-rodape rodape">
     <p>Bikcraft - Todos os direitos reservados</p>
   </footer>
 </body>

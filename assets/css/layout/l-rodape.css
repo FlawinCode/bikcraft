@@ -1,0 +1,5 @@
+.l-rodape {
+  padding: var(--espaco-32);
+  margin-top: var(--espaco-40);
+  text-align: center;
+}
