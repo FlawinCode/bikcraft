@@ -1,17 +1,17 @@
-.l-vantagens {
+.l-advantages {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   max-width: 62.5rem;
   margin-inline: auto;
 }
 
-.l-vantagens__titulo {
+.advantages__title {
   align-self: center;
   text-align: right;
   padding-right: var(--espaco-40);
 }
 
-.l-vantagens__conteudo {
+.advantages__content {
   display: grid;
   grid-template-columns: 1fr;
   grid-auto-rows: 1fr;
@@ -19,7 +19,7 @@
   list-style: none;
 }
 
-.l-vantagens__item {
+.advantages__item {
   display: grid;
   grid-template-columns: auto 1fr;
   gap: var(--espaco-8);
@@ -27,27 +27,27 @@
   align-content: center;
 }
 
-.l-vantagens__item-icone {
+.advantages__item-icon {
   justify-self: start;
 }
 
-.l-vantagens__item-descricao {
+.advantages__item-description {
   grid-column: 2;
 }
 
 @media (width <= 56.25rem) {
-  .l-vantagens {
+  .l-advantages {
     grid-template-columns: 1fr;
     grid-auto-rows: minmax(7.5rem, auto);
   }
 
-  .l-vantagens__titulo {
+  .advantages__title {
     grid-row: 1;
     text-align: center;
     padding-right: 0;
   }
 
-  .l-vantagens__conteudo {
+  .advantages__content {
     grid-row: 2;
     padding: var(--espaco-32) var(--espaco-24);
   }

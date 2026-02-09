@@ -1,4 +1,6 @@
 .nav-link {
+  display: block;
+  padding: var(--espaco-16) var(--espaco-32);
   background-color: var(--cor-branco);
   text-decoration: none;
   font-size: var(--texto-16);
@@ -10,4 +12,16 @@
 
 .nav-link:hover {
   border-color: var(--cor-primaria);
+}
+
+@media (max-width: 39.4375rem) {
+  .nav-link {
+    padding: var(--espaco-16) var(--espaco-24);
+  }
+}
+
+@media (max-width: 37.5rem) {
+  .nav-link {
+    padding: var(--espaco-16) var(--espaco-24);
+  }
 }

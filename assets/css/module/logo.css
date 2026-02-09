@@ -1,4 +1,6 @@
 .logo {
+  display: inline-block;
+  padding: var(--espaco-8);
   text-decoration: none;
   color: var(--cor-texto);
   font-size: var(--texto-40);

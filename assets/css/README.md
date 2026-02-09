@@ -19,7 +19,7 @@ Este projeto usa CSS com foco em estudo de arquitetura e consistencia visual:
 4. `state`
 
 ## Convencoes de Classes
-- Layout: prefixo `l-` (ex.: `l-cabecalho`, `l-banner`).
+- Layout: prefixo `l-` (ex.: `l-header`, `l-banner`).
 - Modulos: nome sem prefixo obrigatorio (ex.: `banner`, `nav-link`, `logo`).
 - Estado: prefixo `is-` (ex.: `is-hidden`).
 

@@ -1,43 +1,43 @@
-.vantagens__titulo {
+.advantages__title {
   font-size: var(--texto-64);
   color: #767676;
   text-transform: uppercase;
 }
 
-.vantagens__conteudo {
+.advantages__content {
   background-color: #fff;
 }
 
-.vantagens__item {
+.advantages__item {
   transition: color 0.3s ease;
   border-left: 0.25rem solid transparent;
 }
 
-.vantagens__item:nth-child(odd) {
+.advantages__item:nth-child(odd) {
   background-color: #f7f7f7;
 }
 
-.vantagens__item:hover {
+.advantages__item:hover {
   border-color: #ee2211;
 }
 
-.vantagens__item-titulo {
+.advantages__item-title {
   font-size: var(--texto-18);
 }
 
-.vantagens__item-descricao {
+.advantages__item-description {
   font-size: var(--texto-20);
   line-height: var(--linha-130);
 }
 
 @media (width <= 56.25rem) {
-  .vantagens__titulo {
+  .advantages__title {
     font-size: var(--texto-40);
   }
 }
 
 @media (max-width: 37.5rem) {
-  .vantagens__item-descricao {
+  .advantages__item-description {
     font-size: var(--texto-16);
   }
 }

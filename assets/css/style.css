@@ -8,17 +8,17 @@
 @import "./base/tokens.css";
 @import "./base/base.css";
 
-@import "./layout/l-cabecalho.css";
-@import "./layout/l-conteudo.css";
-@import "./layout/l-navegacao.css";
+@import "./layout/l-header.css";
+@import "./layout/l-main.css";
+@import "./layout/l-nav.css";
 @import "./layout/l-banner.css";
-@import "./layout/l-vantagens.css";
-@import "./layout/l-rodape.css";
+@import "./layout/l-advantages.css";
+@import "./layout/l-footer.css";
 
 @import "./module/logo.css";
-@import "./module/navegacao.css";
+@import "./module/navigation.css";
 @import "./module/banner.css";
-@import "./module/vantagens.css";
-@import "./module/rodape.css";
+@import "./module/advantages.css";
+@import "./module/footer.css";
 
-@import "./state/estado.css";
+@import "./state/state.css";

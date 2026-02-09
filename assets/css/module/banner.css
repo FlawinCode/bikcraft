@@ -1,9 +1,10 @@
-.banner__conteudo {
+.banner__content {
   background-color: #fff;
   position: relative;
+  padding-inline: var(--espaco-40);
 }
 
-.banner__conteudo::before {
+.banner__content::before {
   content: "";
   width: var(--espaco-72);
   height: var(--espaco-4);
@@ -13,11 +14,11 @@
   top: var(--espaco-32);
 }
 
-.banner__titulo {
+.banner__title {
   font-size: var(--texto-36);
 }
 
-.banner__descricao {
+.banner__description {
   font-size: var(--texto-20);
   line-height: var(--linha-130);
   color: #111;
@@ -38,17 +39,21 @@
 }
 
 @media (width <= 56.25rem) {
-  .banner__conteudo::before {
+  .banner__content {
+    padding: var(--espaco-40) var(--espaco-24);
+  }
+
+  .banner__content::before {
     display: none;
   }
 }
 
 @media (max-width: 37.5rem) {
-  .banner__titulo {
+  .banner__title {
     font-size: var(--texto-28);
   }
 
-  .banner__descricao {
+  .banner__description {
     font-size: var(--texto-16);
   }
 }

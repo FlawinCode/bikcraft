@@ -5,20 +5,19 @@
   margin-inline: auto;
 }
 
-.l-banner__conteudo {
+.banner__content {
   display: grid;
   gap: var(--espaco-24);
-  padding-inline: var(--espaco-40);
   align-content: center;
   text-align: right;
 }
 
-.l-banner__imagem {
+.banner__image {
   display: inline-block;
   max-width: 100%;
 }
 
-.l-banner__link {
+.banner__link {
   justify-self: end;
   display: inline-block;
 }
@@ -28,12 +27,11 @@
     grid-template-columns: 1fr;
   }
 
-  .l-banner__conteudo {
+  .banner__content {
     text-align: left;
-    padding: var(--espaco-40) var(--espaco-24);
   }
 
-  .l-banner__link {
+  .banner__link {
     justify-self: start;
   }
 }
