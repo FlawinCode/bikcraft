@@ -13,3 +13,9 @@
     gap: var(--espaco-32);
   }
 }
+
+@media (max-width: 49.5rem) {
+  .l-header {
+     padding-block: var(--espaco-40) var(--espaco-60);
+  }
+}
