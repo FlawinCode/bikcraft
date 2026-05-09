@@ -1,5 +1,5 @@
 .banner__content {
-  background-color: #fff;
+  background-color: var(--cor-fundo-superficie);
   position: relative;
   padding-inline: var(--espaco-40);
 }
@@ -8,7 +8,7 @@
   content: "";
   width: var(--espaco-72);
   height: var(--espaco-4);
-  background-color: #ee2211;
+  background-color: var(--cor-primaria);
   position: absolute;
   right: calc(var(--espaco-32) * -1);
   top: var(--espaco-32);
@@ -21,21 +21,21 @@
 .banner__description {
   font-size: var(--texto-20);
   line-height: var(--linha-130);
-  color: #111;
+  color: var(--cor-texto);
 }
 
 .banner__link {
-  background-color: #e02211;
+  background-color: var(--cor-primaria);
   padding: var(--espaco-16) var(--espaco-32);
   text-decoration: none;
   text-transform: uppercase;
   font-size: var(--texto-16);
-  color: #fff;
+  color: var(--cor-fundo);
   border-radius: var(--espaco-4);
 }
 
 .banner__link:hover {
-  background-color: #900;
+  background-color: var(--cor-primaria-dark);
 }
 
 @media (width <= 56.25rem) {

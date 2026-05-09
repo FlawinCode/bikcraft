@@ -10,6 +10,9 @@
   --cor-texto-suave: #767676;
   --cor-fundo: #f7f7f7;
   --cor-branco: #ffffff;
+  --cor-fundo-superficie: #ffffff;
+  --cor-fundo-superficie-alt: #f7f7f7;
+  --cor-borda-hover: var(--cor-primaria);
 
   /* Texto */
   --fonte-primaria: Arial, Helvetica, sans-serif;
@@ -43,4 +46,17 @@
   --espaco-72: 4.5rem;
   --espaco-76: 4.75rem;
   --espaco-80: 5rem;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --cor-primaria: #ff4433;
+    --cor-primaria-dark: #cc2211;
+    --cor-texto: #eeeeee;
+    --cor-texto-suave: #aaaaaa;
+    --cor-fundo: #1a1a1a;
+    --cor-branco: #2a2a2a;
+    --cor-fundo-superficie: #2a2a2a;
+    --cor-fundo-superficie-alt: #222222;
+  }
 }

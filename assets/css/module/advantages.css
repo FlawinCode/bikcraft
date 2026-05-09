@@ -1,11 +1,11 @@
 .advantages__title {
   font-size: var(--texto-64);
-  color: #767676;
+  color: var(--cor-texto-suave);
   text-transform: uppercase;
 }
 
 .advantages__content {
-  background-color: #fff;
+  background-color: var(--cor-fundo-superficie);
 }
 
 .advantages__item {
@@ -14,11 +14,11 @@
 }
 
 .advantages__item:nth-child(odd) {
-  background-color: #f7f7f7;
+  background-color: var(--cor-fundo-superficie-alt);
 }
 
 .advantages__item:hover {
-  border-color: #ee2211;
+  border-color: var(--cor-borda-hover);
 }
 
 .advantages__item-title {
